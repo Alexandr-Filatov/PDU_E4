@@ -1431,6 +1431,17 @@
 		)
 		(uuid "0636c48b-5b23-4994-a615-1f17f535211f")
 	)
+	(text "1. Использовать шины сечением 3х15мм.\n"
+		(exclude_from_sim no)
+		(at 393.7 174.498 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left)
+		)
+		(uuid "0eae245e-af2d-4d04-a83d-2d98f8df7f04")
+	)
 	(text "X7"
 		(exclude_from_sim no)
 		(at 373.38 328.422 0)
@@ -1786,6 +1797,17 @@
 			)
 		)
 		(uuid "ad4244f3-da26-41f2-a318-7fe20fb0225c")
+	)
+	(text "2. Для внутренних электрических соединений использовать провод ММП (АМП)-H50-0.35."
+		(exclude_from_sim no)
+		(at 393.7 179.07 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left)
+		)
+		(uuid "adb70087-a5e1-4614-937b-41afa43dfbd7")
 	)
 	(text "X5"
 		(exclude_from_sim no)
@@ -8770,6 +8792,7 @@
 			(effects
 				(font
 					(size 5 5)
+					(color 0 0 0 1)
 				)
 			)
 		)
@@ -8838,6 +8861,7 @@
 			(effects
 				(font
 					(size 3.5 3.5)
+					(color 0 0 0 1)
 				)
 				(justify right)
 			)
@@ -8920,6 +8944,7 @@
 			(effects
 				(font
 					(size 3.5 3.5)
+					(color 0 0 0 1)
 				)
 				(justify right)
 			)
@@ -9003,6 +9028,7 @@
 			(effects
 				(font
 					(size 5 5)
+					(color 0 0 0 1)
 				)
 			)
 		)
@@ -9071,6 +9097,7 @@
 			(effects
 				(font
 					(size 3.5 3.5)
+					(color 0 0 0 1)
 				)
 				(justify right)
 			)
@@ -9153,6 +9180,7 @@
 			(effects
 				(font
 					(size 3.5 3.5)
+					(color 0 0 0 1)
 				)
 				(justify right)
 			)
@@ -9235,6 +9263,7 @@
 			(effects
 				(font
 					(size 3.5 3.5)
+					(color 0 0 0 1)
 				)
 				(justify right)
 			)
