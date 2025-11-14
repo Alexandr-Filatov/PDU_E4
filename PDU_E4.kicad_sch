@@ -7,7 +7,7 @@
 	(title_block
 		(title "Блок распределения питания силовой")
 		(date "2025-06-02")
-		(comment 1 "НВЦТ.0001.0400.100_v1. Э4")
+		(comment 1 "НВЦТ.0001.0400.100_v1 Э4")
 		(comment 2 "Филатов А.С.")
 		(comment 3 "Сизякин А.В.")
 		(comment 4 "Коваленко В.А.")
@@ -1456,7 +1456,17 @@
 		)
 		(uuid "0636c48b-5b23-4994-a615-1f17f535211f")
 	)
-	(text "1. Использовать шины сечением 3х15мм.\n"
+	(text "1"
+		(exclude_from_sim no)
+		(at 407.162 377.698 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "0ddbcca5-8242-432b-a69b-097ee8636ca3")
+	)
+	(text "1  Использовать шины сечением 3х15мм.\n"
 		(exclude_from_sim no)
 		(at 393.7 174.498 0)
 		(effects
@@ -1524,6 +1534,16 @@
 			)
 		)
 		(uuid "23cf81d8-4eb2-4acf-886a-0f0e8cdb45a4")
+	)
+	(text "Зам."
+		(exclude_from_sim no)
+		(at 415.544 377.698 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "2742644d-f992-4ee5-9610-565a5b8768f3")
 	)
 	(text "3"
 		(exclude_from_sim no)
@@ -1823,7 +1843,7 @@
 		)
 		(uuid "ad4244f3-da26-41f2-a318-7fe20fb0225c")
 	)
-	(text "2. Для внутренних электрических соединений использовать провод ММП (АМП)-H50-0.35."
+	(text "2  Для внутренних электрических соединений использовать провод ММП (АМП)-H50-0.35."
 		(exclude_from_sim no)
 		(at 393.7 179.07 0)
 		(effects
@@ -1869,6 +1889,16 @@
 			)
 		)
 		(uuid "c4672b84-a6d9-4e39-96e0-86d965797333")
+	)
+	(text "НВЦТ.0001.006"
+		(exclude_from_sim no)
+		(at 432.562 377.698 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "c7740f77-bc5a-4a76-9818-d94b6570a712")
 	)
 	(text "3"
 		(exclude_from_sim no)
@@ -7478,7 +7508,7 @@
 			(xy 191.77 208.28) (xy 191.77 241.3)
 		)
 		(stroke
-			(width 3)
+			(width 1)
 			(type default)
 			(color 194 0 194 1)
 		)
@@ -7688,7 +7718,7 @@
 		(stroke
 			(width 1)
 			(type solid)
-			(color 0 0 194 1)
+			(color 194 0 0 1)
 		)
 		(uuid "4b804718-64c7-4079-8d6f-9a2d522c7b85")
 	)
@@ -7996,7 +8026,7 @@
 			(xy 173.99 208.28) (xy 191.77 208.28)
 		)
 		(stroke
-			(width 3)
+			(width 1)
 			(type default)
 			(color 194 0 194 1)
 		)
@@ -8221,7 +8251,7 @@
 			(xy 191.77 321.31) (xy 254 321.31)
 		)
 		(stroke
-			(width 3)
+			(width 1)
 			(type default)
 			(color 194 0 194 1)
 		)
@@ -8323,7 +8353,7 @@
 			(xy 199.39 175.26) (xy 199.39 308.61)
 		)
 		(stroke
-			(width 3)
+			(width 1)
 			(type default)
 			(color 221 133 0 1)
 		)
@@ -8345,7 +8375,7 @@
 			(xy 199.39 142.24) (xy 199.39 175.26)
 		)
 		(stroke
-			(width 3)
+			(width 1)
 			(type default)
 			(color 221 133 0 1)
 		)
@@ -8458,7 +8488,7 @@
 			(xy 199.39 308.61) (xy 254 308.61)
 		)
 		(stroke
-			(width 3)
+			(width 1)
 			(type default)
 			(color 221 133 0 1)
 		)
@@ -8523,7 +8553,7 @@
 		(stroke
 			(width 1)
 			(type solid)
-			(color 0 0 194 1)
+			(color 194 0 0 1)
 		)
 		(uuid "ce7a9a47-e500-49b7-9ba3-55ac3bab6c00")
 	)
@@ -8534,16 +8564,16 @@
 		(stroke
 			(width 1)
 			(type solid)
-			(color 0 0 194 1)
+			(color 194 0 0 1)
 		)
-		(uuid "ce7a9a47-e500-49b7-9ba3-55ac3bab6c00")
+		(uuid "ce7a9a47-e500-49b7-9ba3-55ac3bab6c01")
 	)
 	(wire
 		(pts
 			(xy 173.99 142.24) (xy 199.39 142.24)
 		)
 		(stroke
-			(width 3)
+			(width 1)
 			(type default)
 			(color 221 133 0 1)
 		)
@@ -8637,7 +8667,7 @@
 		(stroke
 			(width 1)
 			(type solid)
-			(color 0 0 194 1)
+			(color 194 0 0 1)
 		)
 		(uuid "e38fa749-cc12-482e-a18b-10a25bcb5918")
 	)
@@ -8791,7 +8821,7 @@
 		(stroke
 			(width 1)
 			(type solid)
-			(color 0 0 194 1)
+			(color 194 0 0 1)
 		)
 		(uuid "f63a5efb-f035-463d-96bf-318771607ac1")
 	)
@@ -8831,7 +8861,7 @@
 			(xy 191.77 241.3) (xy 191.77 321.31)
 		)
 		(stroke
-			(width 3)
+			(width 1)
 			(type default)
 			(color 194 0 194 1)
 		)
